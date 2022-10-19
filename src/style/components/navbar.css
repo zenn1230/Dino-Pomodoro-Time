@@ -1,0 +1,36 @@
+.nav{
+    position: sticky;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: #131313;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-family: sans-serif;
+    min-height: 60px;
+    height: 10vh;
+}
+
+.nav__items{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+.nav__title{
+    font-size: 2.3rem;
+}
+.nav__items a{
+    font-size: 1.5rem;
+    color: white;
+}
+.nav__items a.active{
+    color: #fc672d;
+}
+@media screen and (min-width: 810px){
+    .nav__items{
+        width: 20%;
+    }
+}

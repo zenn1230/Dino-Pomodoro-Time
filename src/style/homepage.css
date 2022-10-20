@@ -1,10 +1,49 @@
-@import "./components/navbar.css";
+@import "./component-group.css";
+@import "./default-style.css";
+@import "../icon/css/all.css";
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* padding-top: 12px; */
+    flex-wrap: wrap;
+    padding: 0 1rem;
+    margin-top: 2rem;
 }
-body{
-    overflow-x: hidden;
+#pengenalan {
+    font-family: "Noto Sans", sans-serif;
+}
+#pengenalan h2{
+    text-align: left;
+    margin-bottom: .3em;
+}
+#pengenalan p{
+    color: #474747;
+    font-weight: 100;
+}
+#pengenalan button{
+    margin-top: .5em;
+}
+#pengenalan img{
+    display: none;
+    position: relative;
+    z-index: 0;
+    width: 80%;
+    filter: drop-shadow(1px 5px 6px rgba(0,0,0,0.5)) grayscale(100%);
+}
+#donasi{
+    justify-content: start;
+}
+#donasi .section__col .section__row:last-of-type{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100vw;
+}
+
+@media screen and (min-width: 768px) {
+    #pengenalan img{
+        display: initial;
+    }
 }

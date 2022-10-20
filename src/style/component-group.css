@@ -44,6 +44,14 @@
 .button:active{
     background-color: #ffb055;
 }
+
+.icon{
+    width: max(9vw, 90px);
+}
+.icon__image{
+    border-radius: 16px;
+    width: 100%;
+}
 @media screen and (min-width: 768px){
     .nav__items{
         width: 20%;

@@ -24,23 +24,33 @@
 .nav__items a:hover{ color: var(--yellow-color, #fb8500) }
 
 
-.button{
+.primary-button{
     padding: .4em .6em;
     border: none;
     -webkit-border-radius: 6px;
     border-radius: 6px;
     font-size: .9rem;
     color: var(--dark-color, hsl(0 0% 7%));
-    background-color: var(--yellow-color, hsl(32 100% 49%));
+    background-color: var(--yellow-color, rgb(58, 250, 0));
     outline: none;
     font-size: 1.1rem;
 }
-.button:hover{ 
+.primary-button:hover{ 
     -webkit-box-shadow: 0 0 2.3px 1px rgba(0, 0, 0, 0.5);
     box-shadow: 0 0 2.3px 1px rgba(0, 0, 0, 0.5); 
 }
-.button:active{ background-color: hsl(32 100% 67%) }
+.primary-button:active{ background-color: hsl(32 100% 67%) }
 
+
+.tertiary-button{
+    background-color: transparent;
+    border: none;
+    color: #7a7a7a;
+    font-size: 1.1rem;
+}
+.tertiary-button:hover{
+    text-shadow: 0 0 8px rgba(0, 0, 0, 0.5)
+}
 
 .icon{ width: max(9vw, 90px) }
 .icon__image{
@@ -48,15 +58,6 @@
     border-radius: 16px;
     width: 100%;
 }
-
-
-.link{
-    font-size: 1.1rem;
-    text-decoration: none;
-    color: #7a7a7a;
-    padding-left: .3em;
-}
-.link:hover{ text-shadow: 0 0 8px rgba(0, 0, 0, 0.5) }
 
 
 .section{

@@ -23,4 +23,7 @@ p{
     max-width: 62ch;
     font-size: 1.1rem;
 }
-a{ cursor: pointer }
+a{ 
+    text-decoration: none;
+    cursor: pointer 
+}

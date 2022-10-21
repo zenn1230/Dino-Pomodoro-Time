@@ -8,6 +8,7 @@
 }
 #pengenalan p{ color: #474747 }
 #pengenalan button{ margin-top: .5em }
+#pengenalan button.tertiary-button{ margin-left: .5em; }
 #pengenalan img{
     --shadow: drop-shadow(1px 5px 6px var(--black-shadow, rgba(0,0,0,0.5)));
     --grayscale: grayscale(100%);

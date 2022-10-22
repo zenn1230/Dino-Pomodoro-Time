@@ -2,15 +2,22 @@
 @import "./component-group.css";
 @import "../icon/css/all.css";
 
+body{
+    /* background-color: #F9F9F9; */
+    background-color: #FEFEFE;
+
+}
+
 #pengenalan h2{
     text-align: left;
     margin-bottom: .3em;
 }
 #pengenalan p{ color: #474747 }
 #pengenalan button{ margin-top: .5em }
-#pengenalan button.tertiary-button{ margin-left: .5em; }
+#pengenalan button.secondary-button{ margin-left: .6em; }
 #pengenalan img{
-    --shadow: drop-shadow(1px 5px 6px var(--black-shadow, rgba(0,0,0,0.5)));
+    /* display: none; */
+    --shadow: drop-shadow(1px 5px 6px rgba(0,0,0,0.5));
     --grayscale: grayscale(100%);
     margin: 0 auto;
     width: 80%;

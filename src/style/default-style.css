@@ -23,7 +23,7 @@ p{
     max-width: 62ch;
     font-size: 1.1rem;
 }
-a{ 
+a, button{ 
     text-decoration: none;
     cursor: pointer 
 }

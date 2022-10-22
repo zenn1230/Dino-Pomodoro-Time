@@ -1,10 +1,10 @@
-# Dino:saurood:
+# Dino🦕
 Website **Dino** adalah websiter **Timer Pomodoro**  
 Website ini digunakan untuk membuat kita fokus<br><br>
 
 ## Fitur
 Beberapa fitur yang ada :
-- [ ] Timer
+- [x] Timer
 - [ ] Alarm
 - [ ] Task Notes
 <br><br>

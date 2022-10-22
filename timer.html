@@ -1,9 +1,13 @@
 <!DOCTYPE html>
-<html lang="en" data-status="">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./src/style/timer.css">
     <title>Dino - Pomodoro Timer</title>
 </head>
@@ -33,17 +37,18 @@
     <main>
         <div class="section" id="timer">
             <div class="section__col">
-                <div class="section__tabs" id="works">
-                    <h2>25:00</h2>
+                <div class="section__row">
+                    <h2 id="text-timer">25:00</h2>
                 </div>
-                <div class="section__tabs" id="short-break">
-                    <h2>05:00</h2>
-                </div>
-                <div class="section__tabs" id="long-break">
-                    <h2>10:00</h2>
+                <div class="section__row">
+                    <button class="primary-button" id="start-button">
+                        <i class="fa-solid fa-play"></i>    
+                    </button>
+                    <!-- <button class="secondary-button" id="reset-button">Reset</button> -->
                 </div>
             </div>
         </div>
     </main>
+    <script src="./src/script/timer.js"></script>
 </body>
 </html>
